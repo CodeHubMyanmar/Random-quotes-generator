@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+:root {
+  --bg-color: #006edb;
+  --bg-white: #fff;
+  --text-black: #000;
+  --text-black-50: #666;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  background-color: var(--bg-white);
+  width: 60%;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.quotes-div {
+  display: flex;
+  justify-items: center;
+}
+
+.left-quote,
+.right-quote {
+  font-size: 32px;
+}
+
+.left-quote {
+  margin-right: 8px;
+}
+
+.right-quote {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 8px;
+}
+
+.author-div {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer div i {
+  font-size: 24px;
+  color: var(--text-black-50);
+  margin-right: 14px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.footer div i:hover {
+  color: var(--bg-color);
+}
+
+.btn {
+  background-color: var(--bg-color);
+  color: var(--bg-white);
+  padding: 6px 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.load {
+  opacity: 0.4;
+}

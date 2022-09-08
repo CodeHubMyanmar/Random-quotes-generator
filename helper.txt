@@ -1,0 +1,5 @@
+Quote api link
+https://api.quotable.io/random
+
+tweet url
+https://twitter.com/intent/tweet?url=Something 
